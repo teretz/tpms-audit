@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TPMS Parts Finder",
+    "description": "The TPMS Part Finder App from 31 Inc allows you to quickly lookup a vehicle and view the TPMS information.",
+    "slug": "tpms",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.8.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1f1f1f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tpmsnetwork.tpmspartfinder",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan VIN bar codes on vehicles."
+      }
+    },
+    "android": {
+      "package": "com.tpmsnetwork.tpmspartfinder",
+      "permissions": [
+        "CAMERA"
+      ],
+      "versionCode": 5
+    }
+  }
+}
